@@ -5,12 +5,14 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Document</title>
+    <title>login</title>
 </head>
 <body>
-    <script src="@{/js/jquery-3.1.1.min.js}"></script>
-    <script src="@{/js/index.js}"></script>
-	<h3>index</h3>
-	
+  	错误信息：<h4 th:text="${msg}"></h4>  
+	<form action="" method="post">  
+	    <p>账号：<input type="text" name="username" value="admin"/></p>  
+	    <p>密码：<input type="text" name="password" value="123456"/></p>  
+	    <p><input type="submit" value="登录"/></p>  
+	</form>  
 </body>
 </html>
