@@ -1,4 +1,5 @@
 # spring-boot-mongodb
 spring boot mongodb
 
-https://github.com/xuxingxiong/spring-boot-mongodb.git
+Clone the repository:
+git clone https://github.com/xuxingxiong/spring-boot-mongodb.git
